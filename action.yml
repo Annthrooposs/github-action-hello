@@ -1,6 +1,6 @@
 # Nom, descrition et auteur
 # -------------------------
-name: 'Hello my World' # le nom de notre action (obligatoire)
+name: 'Action01' # le nom de notre action (obligatoire)
 description: 'Dit bonjour à une personne' # une simple description (obligatoire)
 author: 'Annthrooposs' # le nom du créateur (optionel)
 
