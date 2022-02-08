@@ -19,5 +19,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: Annthrooposs/github-action-hello@main   # chargement de notre action
         with:
-          firstname: 'JC-Annthrooposs'    # paramètre à fournir.
+          firstname: 'JCAnnthrooposs'    # paramètre à fournir.
+          firstname2: 'JCAnnthrooposs2'
       - run: echo "::warning::Cette action est obsolète, pensez à migrer sur l'action officielle XXXX/YYYY@v0"
