@@ -21,8 +21,8 @@ inputs: # Liste des paramètres d'entrée
     description: 'Le nom de la personne' # (obligatoire) Une phrase qui décrit le paramètre
     required: true # (obligatoire) Indique si le paramètre est requis ou non
     default: 'Earth' # (optionel) Donne une valeur par défaut au paramètre si aucune valeur n'est reseignée
-  firstname2: 'Le second nom à afficher'
-    description:
+  firstname2:
+    description: 'Le second nom à afficher'
     required: true
     default: 'Universe'
 
