@@ -20,3 +20,4 @@ jobs:
       - uses: Annthrooposs/github-action-hello@main   # chargement de notre action
         with:
           firstname: 'JC-Annthrooposs'    # paramètre à fournir.
+      - run: echo "::warning::Cette action est obsolète, pensez à migrer sur l'action officielle XXXX/YYYY@v0")
