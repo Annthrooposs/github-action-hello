@@ -1,0 +1,35 @@
+# Nom, descrition et auteur
+# -------------------------
+name: 'ATP-Action01' # le nom de notre action (obligatoire)
+description: 'Dit bonjour à une personne' # une simple description (obligatoire)
+author: 'Annthrooposs' # le nom du créateur (optionel)
+
+
+
+# Format de l'action (JavaScript ou Docker) et point d'entrée et version de JavaScript
+# ------------------------------------------------------------------------------------
+runs:
+  using: 'node12' # Action de type Javascript utilisant NodeJS 1branding:
+  main: 'index.js' # Le pointd'entrée (script principal) est un fichier index.js
+  
+
+
+# Paramètres d'entrée et de sortie
+# --------------------------------
+inputs: # Liste des paramètres d'entrée
+  firstname: # (obligatoire) Le nom du paramètre
+    description: 'Le nom de la personne' # (obligatoire) Une phrase qui décrit le paramètre
+    required: true # (obligatoire) Indique si le paramètre est requis ou non
+    default: 'Earth' # (optionel) Donne une valeur par défaut au paramètre si aucune valeur n'est reseignée
+  firstname2:
+    description: 'Le second nom à afficher'
+    required: true
+    default: 'Universe'
+
+
+    
+# Visual marketing de notre action dans la MarketPlace
+# ----------------------------------------------------
+branding:
+  icon: 'message-circle' # Le nom d'une des icônes disponibles
+  color: 'orange' # La couleur de fond de notre icône
