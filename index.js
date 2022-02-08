@@ -1,9 +1,9 @@
 const core = require('@actions/core');  // chargement du module core du toolkit
 
 try {
-    const firstname = core.getinput('firstname');   // récupération de la valeur du paramètre
+    const firstname = core.getInput('firstname');   // rÃ©cupÃ©ration de la valeur du paramÃ¨tre
     console.log('Hello ${firstname}!');
 }
 catch (error) {
-    core.setFailed(error.message);  // indique à l'agent que letraitement a échoué et lui transmet les détails du problème
+    core.setFailed(error.message);  // indique Ã  l'agent que letraitement a Ã©chouÃ© et lui transmet les dÃ©tails du problÃ¨me
 }
