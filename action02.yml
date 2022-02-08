@@ -1,7 +1,7 @@
 # Nom, descrition et auteur
 # -------------------------
 name: 'ATP-Action02' # le nom de notre action (obligatoire)
-description: 'Dit bonjour à une personne' # une simple description (obligatoire)
+description: "Création d'une release GitHub en automatisant la création de son Tag et de son Changelog, ceci étant basé sur les commentaires des commits" # une simple description (obligatoire)
 author: 'Annthrooposs' # le nom du créateur (optionel)
 
 
@@ -11,11 +11,11 @@ author: 'Annthrooposs' # le nom du créateur (optionel)
 runs:
   using: 'node12' # Action de type Javascript utilisant NodeJS 1branding:
   main: 'index.js' # Le pointd'entrée (script principal) est un fichier index.js
-  
 
 
-# Paramètres d'entrée et de sortie
-# --------------------------------
+
+# Paramètres d'entrée
+# -------------------
 inputs: # Liste des paramètres d'entrée
   githubToken:
     description: 'Token pour accéder à GitHub'
@@ -29,9 +29,16 @@ inputs: # Liste des paramètres d'entrée
     default: true
 
 
+
+# Paramètres de sortie
+# --------------------
+output:
+  relnotes:
+    description: 'Contenu de la release note'
+
     
 # Visual marketing de notre action dans la MarketPlace
 # ----------------------------------------------------
 branding:
-  icon: 'message-circle' # Le nom d'une des icônes disponibles
+  icon: 'award' # Le nom d'une des icônes disponibles
   color: 'orange' # La couleur de fond de notre icône
