@@ -1,0 +1,22 @@
+{
+  "name": "github-action-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annthrooposs/github-action-hello.git"
+  },
+  "author": "Annthrooposs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annthrooposs/github-action-hello/issues"
+  },
+  "homepage": "https://github.com/Annthrooposs/github-action-hello#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0"
+  }
+}
