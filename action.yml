@@ -1,31 +1,31 @@
 # Nom, descrition et auteur
 # -------------------------
-name: 'Hello World' # le nom de notre action (obligatoire)
-description: 'Dit bonjour à une personne' # une simple description (obligatoire)
-author: 'Annthrooposs' # le nom du créateur (optionel)
+name: 'Hello my World' # le nom de notre action (obligatoire)
+description: 'Dit bonjour Ã  une personne' # une simple description (obligatoire)
+author: 'Annthrooposs' # le nom du crÃ©ateur (optionel)
 
 
 
-# Format de l'action (JavaScript ou Docker) et point d'entrée et version de JavaScript
+# Format de l'action (JavaScript ou Docker) et point d'entrÃ©e et version de JavaScript
 # ------------------------------------------------------------------------------------
 runs:
   using: 'node12' # Action de type Javascript utilisant NodeJS 1branding:
-  main: 'index.js' # Le pointd'entrée (script principal) est un fichier index.js
+  main: 'index.js' # Le pointd'entrÃ©e (script principal) est un fichier index.js
   
 
 
-# Paramètres d'entrée et de sortie
+# ParamÃ¨tres d'entrÃ©e et de sortie
 # --------------------------------
-inputs: # Liste des paramètres d'entrée
-  firstname: # (obligatoire) Le nom du paramètre
-    description: 'Le nom de la personne' # (obligatoire) Une phrase qui décrit le paramètre
-    required: true # (obligatoire) Indique si le paramètre est requis ou non
-    default: 'World' # (optionel) Donne une valeur par défaut au paramètre si aucune valeur n'est reseignée
+inputs: # Liste des paramÃ¨tres d'entrÃ©e
+  firstname: # (obligatoire) Le nom du paramÃ¨tre
+    description: 'Le nom de la personne' # (obligatoire) Une phrase qui dÃ©crit le paramÃ¨tre
+    required: true # (obligatoire) Indique si le paramÃ¨tre est requis ou non
+    default: 'World' # (optionel) Donne une valeur par dÃ©faut au paramÃ¨tre si aucune valeur n'est reseignÃ©e
 
 
     
 # Visual marketing de notre action dans la MarketPlace
 # ----------------------------------------------------
 branding:
-  icon: 'message-circle' # Le nom d'une des icônes disponibles
-  color: 'orange' # La couleur de fond de notre icône
+  icon: 'message-circle' # Le nom d'une des icÃ´nes disponibles
+  color: 'orange' # La couleur de fond de notre icÃ´ne
